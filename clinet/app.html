@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delhi Housing Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	<h2>Area (Square Feet)</h2>
+    <input class="area"  type="text" id="uiSqft" class="floatLabel" name="Squareft" value="2000">
+	<h2>BHK</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-bhk-1" name="uiBHK" value="1"/>
+		<label for="radio-bhk-1">1</label>
+		<input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked/>
+		<label for="radio-bhk-2">2</label>
+		<input type="radio" id="radio-bhk-3" name="uiBHK" value="3"/>
+		<label for="radio-bhk-3">3</label>
+		<input type="radio" id="radio-bhk-4" name="uiBHK" value="4"/>
+		<label for="radio-bhk-4">4</label>
+		<input type="radio" id="radio-bhk-5" name="uiBHK" value="5"/>
+		<label for="radio-bhk-5">5</label>
+	</div>
+	</form>
+<form class="form">
+	<h2>Bathroom</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-bathroom-1" name="uibathroom" value="1"/>
+		<label for="radio-bathroom-1">1</label>
+		<input type="radio" id="radio-bathroom-2" name="uibathroom" value="2" checked/>
+		<label for="radio-bathroom-2">2</label>
+		<input type="radio" id="radio-bathroom-3" name="uibathroom" value="3"/>
+		<label for="radio-bathroom-3">3</label>
+	</div>
+<form class="form">
+	<h2>Furnishing</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-furnishing-1" name="uifurnishing" value="1"/>
+		<label for="radio-furnishing-1">Semi-Furnished</label>
+		<input type="radio" id="radio-furnishing-2" name="uifurnishing" value="2" checked/>
+		<label for="radio-furnishing-2">Furnished</label>
+		<input type="radio" id="radio-furnishing-3" name="uifurnishing" value="3"/>
+		<label for="radio-furnishing-3">Unfurnished</label>
+	</div>
+<form class="form">
+	<h2>Parking</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-parking-1" name="uiparking" value="1"/>
+		<label for="radio-parking-1">1</label>
+		<input type="radio" id="radio-parking-2" name="uiparking" value="2" checked/>
+		<label for="radio-parking-2">2</label>
+		<input type="radio" id="radio-parking-3" name="uiparking" value="3"/>
+		<label for="radio-parking-3">3</label>
+		<input type="radio" id="radio-parking-4" name="uiparking" value="4"/>
+		<label for="radio-parking-4">4</label>
+	</div>
+<form class="form">
+	<h2>Status</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-uiStatus-1" name="uiStatus" value="1"/>
+		<label for="radio-uiStatus-1">Ready to move</label>
+		<input type="radio" id="radio-uiStatus-2" name="uiStatus" value="2" checked/>
+		<label for="radio-uiStatus-2">Almost ready</label>
+	</div>
+<form class="form">
+	<h2>Transaction</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-transaction-1" name="uitransaction" value="1"/>
+		<label for="radio-transaction-1">New Property</label>
+		<input type="radio" id="radio-transaction-2" name="uitransaction" value="2" checked/>
+		<label for="radio-transaction-2">Resale</label>
+	</div>
+<form class="form">
+	<h2>Type</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-type-1" name="uitype" value="1"/>
+		<label for="radio-type-1">Builder Floor</label>
+		<input type="radio" id="radio-type-2" name="uitype" value="2" checked/>
+		<label for="radio-type-2">Apartment</label>
+	</div>
+		<h2>Locality</h2>
+	<div>
+  <select class="locality" name="" id="uiLocality">
+    <option value="" disabled="disabled" selected="selected">Choose a Locality</option>
+		<option>alaknanda</option>
+    <option>batla house, okhla</option>
+  </select>
+</div>
+	<button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+	<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+</body>
+</html>
