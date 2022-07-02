@@ -1,4 +1,4 @@
-                                                                 ## Housing-price-prediction
+## Housing-price-prediction
 
 <img width="950" alt="webpage_view" src="https://user-images.githubusercontent.com/103435606/177013973-32a4a1b8-e65f-4222-b675-43bcbd83165d.png">
 
