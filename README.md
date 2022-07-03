@@ -22,5 +22,5 @@ Build a ML model which can predict the property price of a given property depend
 ![bokeh_plot (3)](https://user-images.githubusercontent.com/103435606/177027493-bc392d5e-999f-476c-b0fc-4866ce6b0ebe.png)
 ![bokeh_plot (2)](https://user-images.githubusercontent.com/103435606/177027494-4b94dff6-55fd-4e99-9595-862f499a6e24.png)
 ![bokeh_plot (1)](https://user-images.githubusercontent.com/103435606/177027496-689111eb-d5dc-4661-8f5c-72dc89c793c3.png)
-![bokeh_plot](https://user-images.githubusercontent.com/103435606/177027497-4be0910d-98fc-4de5-8c63-2288836ad5d7.png)
+
 
