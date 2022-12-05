@@ -9,7 +9,7 @@ Due to lack of land availability in metro cities the current trend is to build h
 Build a ML model which can predict the property price of a given property depending upon various factors like BHK, number of bathrooms, furnishing type, parking availability, status, transaction, type and locality.
 
 ## Data Visualization:
-<img width="950" alt="ss_of_dashboard" src="https://user-images.githubusercontent.com/103435606/177013721-63d26c54-8dfa-4e0a-98f7-5f041451c3d6.png">
+<img width="950" alt="power bi" src="https://user-images.githubusercontent.com/103435606/205699364-2aca2346-c70b-4a59-a89c-8c4985288c91.png">
 
 ## Data Distribution:
 
